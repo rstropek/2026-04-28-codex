@@ -35,6 +35,19 @@ Prefer the following folder and project structure:
 * `HelloCodex.Data.Tests` - database layer tests using xUnit
 * `HelloCodex.Web/src/**/*.test.ts` - frontend tests colocated with the TypeScript code they cover
 
+## URL Schema
+
+* .NET API should run on port 8080 on localhost
+* API endpoints should be prefixed with `/api`
+* Frontend should run on port 8081 on localhost
+* API project allows CORS with all origins, all methods, and all headers to enable frontend development without CORS issues
+
+## Documentation and Code Samples
+
+Use the Microsoft Learn CLI (NOT MCP) to find documentation and code samples for any Microsoft SDKs and languages, including C#, .NET, SQL Server, Azure, and more. Only use Context7 for Microsoft documentation if you cannot find the necessary information through the Learn CLI.
+
+For all other topics, use the Context7 CLI to find documentation and code samples.
+
 ## Quality Checklist
 
 After changing any code, always ensure:
