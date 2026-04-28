@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HelloCodex.Api.Tests/HelloCodex.Api.Tests.csproj" />
+  <Project Path="HelloCodex.Api/HelloCodex.Api.csproj" />
+  <Project Path="HelloCodex.Data.Tests/HelloCodex.Data.Tests.csproj" />
+  <Project Path="HelloCodex.Data/HelloCodex.Data.csproj" />
+</Solution>

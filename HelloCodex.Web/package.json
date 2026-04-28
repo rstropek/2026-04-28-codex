@@ -1,0 +1,22 @@
+{
+  "name": "hellocodex-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "biome lint src vite.config.ts index.html package.json tsconfig.json biome.json",
+    "format": "biome format --write src vite.config.ts index.html package.json tsconfig.json biome.json",
+    "format:check": "biome format src vite.config.ts index.html package.json tsconfig.json biome.json",
+    "check": "biome check src vite.config.ts index.html package.json tsconfig.json biome.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.10",
+    "vitest": "^4.1.5"
+  }
+}
